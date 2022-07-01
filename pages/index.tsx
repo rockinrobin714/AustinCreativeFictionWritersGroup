@@ -14,8 +14,9 @@ const Home: NextPage = () => {
           name="description"
           content="A writing critique group based in Austin for fiction writers of all skill levels"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <main className={styles.main}>
@@ -42,7 +43,7 @@ const Home: NextPage = () => {
           </p>
         </section>
         <section className={styles.faq}>
-          <p className={styles.bold}>FAQ 🙋‍♀️ </p>
+          <p className={styles.bold}>🙋 FAQ</p>
           <div className={styles.faqContainer}>
             <div className={styles.faqColumn}>
               <p className={styles.faqQuestion}>✍️ How do I join?</p>

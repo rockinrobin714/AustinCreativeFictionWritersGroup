@@ -14,6 +14,7 @@ const Home: NextPage = () => {
           name="description"
           content="A writing critique group based in Austin for fiction writers of all skill levels"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -111,10 +112,7 @@ const Home: NextPage = () => {
                 ✍️ Why only 5,000 words? I&apos;m writing a 540,000 word sequel
                 to Infinite Jest.
               </p>
-              <p>
-                Many of us read submissions more than once and 5,000 words is
-                short enough to read in one sitting.
-              </p>
+              <p>5,000 words is short enough to read in one sitting.</p>
               <p className={styles.faqQuestion}>
                 ✍️ What if I want to submit something in the middle of my novel?
               </p>

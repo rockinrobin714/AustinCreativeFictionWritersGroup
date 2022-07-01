@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <p>We are a writing critique group based in Austin.</p>
           <p>
             We meet up every other Wednesday night and spend about two hours
-            critiquing each others fictional short stories and novel chapters.
+            critiquing each others fictional short stories and novels.
           </p>
           <p>
             Each meeting, we review three pieces of fiction approximately 5,000
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           </p>
         </section>
         <section className={styles.faq}>
-          <p className={styles.bold}>FAQ 🙋 </p>
+          <p className={styles.bold}>FAQ 🙋‍♀️ </p>
           <div className={styles.faqContainer}>
             <div className={styles.faqColumn}>
               <p className={styles.faqQuestion}>✍️ How do I join?</p>
@@ -51,66 +51,77 @@ const Home: NextPage = () => {
               </p>
               <p>
                 Up to you! If you feel more comfortable observing on your first
-                meeting, that's ok with us.
+                meeting, that&apos;s ok with us.
               </p>
               <p className={styles.faqQuestion}>
                 ✍️ What kind of critiques am I expected to give?
               </p>
               <p>
-                We recommend reviewing{" "}
-                <a href="http://cascadewriters.com/milford-style-workshopping/">
+                We follow the Milford Style of workshopping and recommend
+                reviewing{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="http://cascadewriters.com/milford-style-workshopping/"
+                >
                   this
                 </a>{" "}
                 so you know what to expect.
               </p>
               <p className={styles.faqQuestion}>
-                ✍️ What if I don't like your critiques?
+                ✍️ What if I don&apos;t like your critiques?
               </p>
               <p>You get a refund on the $0 you paid us.</p>
               <p className={styles.faqQuestion}>
-                ✍️ I'm writing fantasy / romance / sci-fi / Inspector Gadget fan
-                fiction, can I submit?
+                ✍️ I&apos;m writing fantasy / romance / sci-fi / Inspector
+                Gadget fan fiction, can I submit?
               </p>
               <p>
-                As long as it's fiction, go for it. We don't claim to be genre
-                experts though*.
+                As long as it&apos;s fiction, go for it. We don&apos;t claim to
+                be genre experts though*.
               </p>
               <p style={{ fontSize: "8px" }}>
                 *Except in Inspector Gadget fan fiction
               </p>
             </div>
             <div className={styles.faqColumn}>
+              <p className={styles.faqQuestion}>
+                ✍️ I&apos;m a complete beginner. Can I still join?
+              </p>
+              <p>We welcome all skill levels.</p>
               <p className={styles.faqQuestion}>✍️ will u fix my grammer</p>
               <p>Nope.</p>
               <p className={styles.faqQuestion}>
-                ✍️ But seriously, my grammar sucks. Can I still submit?
+                ✍️ But seriously, my grammar sucks.
               </p>
               <p>
-                We don't expect submissions to be perfect. A typo here and there
-                is fine. That being said, your submission should be in a
-                polished enough state that we can read it. Excessive errors will
-                detract from the story. If you really struggle with grammar, try
-                using one of the many{" "}
-                <a href="https://prowritingaid.com/grammar-checker">
+                A typo here and there is fine but your submission should be
+                readable. Excessive errors will detract from the story. If you
+                really struggle with grammar, try using one of the many{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://prowritingaid.com/grammar-checker"
+                >
                   free tools online
                 </a>{" "}
                 to help with the basics.
               </p>
               <p className={styles.faqQuestion}>
-                ✍️ Why only 5,000 words? I'm writing a 540,000 word sequel to
-                Infinite Jest.
+                ✍️ Why only 5,000 words? I&apos;m writing a 540,000 word sequel
+                to Infinite Jest.
               </p>
               <p>
-                Many of us like to read each submission more than once and 5,000
-                words is small enough to read in one sitting.
+                Many of us read submissions more than once and 5,000 words is
+                short enough to read in one sitting.
               </p>
               <p className={styles.faqQuestion}>
                 ✍️ What if I want to submit something in the middle of my novel?
               </p>
               <p>
-                That's fine. We'd appreciate a short summary of what's happened
-                up to that point to give us the relevant context needed to
-                critique.
+                That&apos;s fine. We&apos;d appreciate a short summary of
+                what&apos;s happened up to that point to give us the relevant
+                context needed to critique.
               </p>
             </div>
           </div>

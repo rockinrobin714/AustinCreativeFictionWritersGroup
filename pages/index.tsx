@@ -47,13 +47,34 @@ const Home: NextPage = () => {
           <div className={styles.faqContainer}>
             <div className={styles.faqColumn}>
               <p className={styles.faqQuestion}>✍️ How do I join?</p>
-              <p>Contact [email]</p>
+              <p>
+                Visit{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://groups.io/g/AustinCreativeFictionWriters"
+                >
+                  our groups.io page
+                </a>{" "}
+                to see if there&apos;s currently room in the group or if there
+                will be soon.
+              </p>
               <p className={styles.faqQuestion}>
                 ✍️ Do I have to give critiques on my first meeting?
               </p>
               <p>
-                Up to you! If you feel more comfortable observing on your first
-                meeting, that&apos;s ok with us.
+                If you feel more comfortable observing on your first meeting,
+                that&apos;s ok with us.
+              </p>
+              <p className={styles.faqQuestion}>
+                ✍️ I&apos;ve never critiqued other writers&apos; work before and
+                I&apos;m probably not very good at it.
+              </p>
+              <p>
+                We believe critiquing is as important a part of our group as the
+                writing. If you come into the group, you&apos;ll get better at
+                it. We find virtually everybody has important things to say that
+                shine new light on a writer&apos;s understanding of their work.
               </p>
               <p className={styles.faqQuestion}>
                 ✍️ What kind of critiques am I expected to give?
@@ -82,7 +103,7 @@ const Home: NextPage = () => {
                 As long as it&apos;s fiction, go for it. We don&apos;t claim to
                 be genre experts though*.
               </p>
-              <p style={{ fontSize: "8px" }}>
+              <p style={{ fontSize: "12px" }}>
                 *Except in Inspector Gadget fan fiction
               </p>
             </div>
@@ -121,6 +142,21 @@ const Home: NextPage = () => {
                 That&apos;s fine. We&apos;d appreciate a short summary of
                 what&apos;s happened up to that point to give us the relevant
                 context needed to critique.
+              </p>
+              <p className={styles.faqQuestion}>
+                ✍️ I have questions about the group. How can I get answers?
+              </p>
+              <p>
+                Visit{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://groups.io/g/AustinCreativeFictionWriters"
+                >
+                  our groups.io page
+                </a>
+                . You&apos;ll find a place there to do that and we want to hear
+                your questions.
               </p>
             </div>
           </div>

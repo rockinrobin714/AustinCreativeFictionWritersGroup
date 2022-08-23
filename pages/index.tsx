@@ -112,10 +112,10 @@ const Home: NextPage = () => {
                 ✍️ I&apos;m a complete beginner. Can I still join?
               </p>
               <p>We welcome all skill levels.</p>
-              <p className={styles.faqQuestion}>✍️ will u fix my grammer</p>
+              <p className={styles.faqQuestion}>✍️ will u fix my grammer?</p>
               <p>Nope.</p>
               <p className={styles.faqQuestion}>
-                ✍️ But seriously, my grammar sucks.
+                ✍️ But seriously, my grammar sucks. I didn't even notice grammar was misspelled in the previous question.
               </p>
               <p>
                 A typo here and there is fine but your submission should be

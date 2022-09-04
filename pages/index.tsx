@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           </p>
           <p>
             Each meeting, we review up to three pieces of fiction approximately 5,000
-            words each, submitted ~five days before the meeting.
+            words each, submitted roughly five days before the meeting.
           </p>
         </section>
         <section className={styles.faq}>

@@ -19,15 +19,6 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-548Y5MVNXD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-548Y5MVNXD');
-</script>
-
       <main className={styles.main}>
         <header className={styles.header}>
           <Image
@@ -47,8 +38,8 @@ const Home: NextPage = () => {
             critiquing each others fictional short stories and novels.
           </p>
           <p>
-            Each meeting, we review three pieces of fiction approximately 5,000
-            words each.
+            Each meeting, we review up to three pieces of fiction approximately 5,000
+            words each, submitted ~five days before the meeting.
           </p>
         </section>
         <section className={styles.faq}>
